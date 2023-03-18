@@ -12,6 +12,10 @@ function App() {
         {
           path: '/',
           element: <Home></Home>
+        },
+        {
+          path: '/User_guide_relevent_works',
+          element: <Home></Home>
         }
       ]
     }
