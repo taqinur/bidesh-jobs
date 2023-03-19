@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 export const Footer = () => {
   return (
-    <Container className="">
+    <Container>
       <CDBBox
         display="flex"
         flex="column"

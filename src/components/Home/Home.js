@@ -1,10 +1,12 @@
 import React from 'react';
-import CarouselTop from '../CarouselTop/CarouselTop';
+import Banner from '../Banner/Banner';
+import InfoSummary from '../InfoSummary/InfoSummary';
 
 const Home = () => {
     return (
         <>
-        <CarouselTop></CarouselTop>
+        <Banner></Banner>
+        <InfoSummary></InfoSummary>
         </>
     );
 };
