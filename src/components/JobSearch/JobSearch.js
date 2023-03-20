@@ -4,20 +4,18 @@ import { FaMapMarkerAlt, FaGlobeEurope, FaBriefcase } from "react-icons/fa";
 
 const JobSearch = () => {
   return (
-    <div className="ms-5">
+    <div className="px-5 py-3 text-white">
       <Form>
-        <h3 class="title">Find your dream job</h3>
+        <h3 className="title">Find your dream job</h3>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>
-            <FaBriefcase />
-            Write your occupation
+            <FaBriefcase /> Write your occupation
           </Form.Label>
           <Form.Control placeholder="Driver, Electrician etc" />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>
-            <FaGlobeEurope />
-            Skilled Category
+            <FaGlobeEurope /> Skilled Category
           </Form.Label>
           <Form.Select>
             <option selected>Skilled Category</option>

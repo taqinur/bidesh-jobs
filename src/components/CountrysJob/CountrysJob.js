@@ -2,7 +2,7 @@ import React from "react";
 
 const CountrysJob = () => {
   return (
-    <div className="countrys-job-summary mx-auto">
+    <div className="countrys-job-summary ps-3 py-3 text-white">
       <h4 className="title">Country wise vacancies</h4>
       <ul className="countrys-list">
         <li>
@@ -42,10 +42,10 @@ const CountrysJob = () => {
       </div>
 
       <div>
-        <span className="bdeshjl">
+        <button className="bg-white mt-1 px-2 py-1 rounded border-0">
           <img src="https://bdesh.bdjobs.com/images/bdesh_jatra.svg" alt="logo of bdeshjaatra" /> <br />
           <a className="text-decoration-none">অভিবাসন বিষয়ক তথ্য</a>
-        </span>
+        </button>
       </div>
     </div>
   );

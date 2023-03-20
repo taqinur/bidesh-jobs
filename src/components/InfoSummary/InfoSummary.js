@@ -5,40 +5,34 @@ import { FaUserFriends, FaWrench, FaGlobeEurope } from "react-icons/fa";
 const InfoSummary = () => {
   return (
     <Container>
-      <div class=" d-flex flex-row">
-        <div class="col-xs-4">
-          <div class="info-wrap empl">
-            <FaUserFriends />
+      <div className=" d-flex flex-row py-5">
+        <div className="col-xs-4 mx-auto">
+          <div className="d-flex flex-row">
+            <FaUserFriends size={56} style={{color: "#FFF"}} className="my-auto rounded-circle bg-danger p-2" />
 
-            <div class="info">
-              <p class="title">No. of vacancies</p>
-              <p class="number">
-                <a href="jobsearch.asp">597</a>
-              </p>
+            <div className="ms-3">
+              <h5>No. of vacancies</h5>
+              <h5 className="text-danger fw-bold">597</h5>
             </div>
           </div>
         </div>
-        <div class="col-xs-4">
-          <div class="info-wrap post">
-            <FaWrench />
+        <div className="col-xs-4 mx-auto">
+          <div className="d-flex flex-row">
+            <FaWrench size={56} style={{color: "#FFF"}} className="my-auto rounded-circle bg-success p-2 " />
 
-            <div class="info">
-              <p class="title">No. of jobs</p>
-              <p class="number">
-                <a href="jobsearch.asp">31</a>
-              </p>
+            <div className="ms-3">
+              <h5>No. of jobs</h5>
+              <h5 className="text-success fw-bold">31</h5>
             </div>
           </div>
         </div>
-        <div class="col-xs-4">
-          <div class="info-wrap countries">
-            <FaGlobeEurope />
+        <div className="col-xs-4 mx-auto">
+          <div className="d-flex flex-row">
+            <FaGlobeEurope size={56} style={{color: "#FFF"}} className="my-auto rounded-circle bg-warning p-2" />
 
-            <div class="info">
-              <p class="title">No. of countries</p>
-              <p class="number">
-                <a href="locationwisejobs.asp">14</a>
-              </p>
+            <div className="ms-3">
+              <h5>No. of countries</h5>
+              <h5 className="text-warning fw-bold">14</h5>
             </div>
           </div>
         </div>

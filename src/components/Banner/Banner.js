@@ -5,14 +5,14 @@ import JobSearch from "../JobSearch/JobSearch";
 
 const Banner = () => {
   return (
-    <div className="d-flex flex-row">
-      <div className="col-sm-6 col-md-3 col-md-pull-6 left-col">
+    <div className="d-flex flex-row bg-primary">
+      <div className="left-col">
         <JobSearch></JobSearch>
       </div>
-      <div className="col-sm-12 col-md-6 col-md-push-3 mid-col">
+      <div className="mid-col bg-white">
         <CarouselTop></CarouselTop>
       </div>
-      <div className="col-sm-6 col-md-3 right-col">
+      <div className="right-col bg-primary">
         <CountrysJob></CountrysJob>
       </div>
     </div>
